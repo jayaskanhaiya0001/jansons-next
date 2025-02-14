@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+"use client";
+import { useParams } from "next/navigation";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Quote from "../../component/form/quote";
-import { useParams } from "next/navigation";
 import Footer from "@/component/footer/footer";
 
 const logos = [
