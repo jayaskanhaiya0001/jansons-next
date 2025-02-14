@@ -1,3 +1,5 @@
+"use client";
+
 import HeroSection from "./herosection"
 import Products from "./products";
 import Contact from "./contact";
